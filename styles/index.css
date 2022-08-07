@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Blueberry";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url("/fonts/Blueberry-Regular.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: "Pacifico";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url("/fonts/Pacifico-Regular.woff2") format('woff2');
+}
+
+.custom-img {
+  object-fit: contain;
+  width: 100% !important;
+  position: bottom !important;
+  height: unset !important;
+}
+
+.unset-img {
+  width: 100%;
+}
+.unset-img > div {
+  position: bottom !important;
+}
+
